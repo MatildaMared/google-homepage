@@ -3,13 +3,14 @@ body {
     font-size: 14px;
 }
 
-a {
+header a {
     font-family: Arial, sans-serif;
     text-decoration: none;
     color:#000000;
+    padding-right:10px;
 }
 
-a:hover {
+header a:hover {
     color:#5b5b5b;
     text-decoration: underline;
 }
@@ -19,18 +20,27 @@ a:hover {
     align-items: right;
     justify-content:flex-end;
     align-items: center;
+    padding-top:10px;
 }
 
 #apps-image {
-    width:18px;
+    width:16px;
     height:auto;
-    padding-left:20px;
+    padding-left:10px;
 }
 
 #user-logo {
     width:32px;
     height:auto;
     border-radius:50%;
-    padding-right:20px;
-    padding-left:20px;
+    margin-right:20px;
+    margin-left:10px;
+}
+
+#search {
+    display:flex;
+}
+#google-logo{
+    max-width:272px;
+    height:92px;
 }
